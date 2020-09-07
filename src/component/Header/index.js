@@ -1,5 +1,6 @@
 import React from 'react';
 import { find, get } from 'lodash'
+import { string } from 'prop-types'
 
 import Like from '../Like'
 import faculties from '../../utils/faculty'
@@ -37,6 +38,12 @@ const Header = ({ faculty, bachelor, university }) => {
       </div>
     </div>
   )
+}
+
+Header.propTypes = {
+  faculty: string,
+  bachelor: string,
+  university: string
 }
 
 export default Header
