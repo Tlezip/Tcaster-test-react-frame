@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+}
+
+.header__faculty-logo {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.header__university-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__university-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__faculty-name {
+  font-family: 'Prompt';
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff5a5a;
+  margin-bottom: 8px;
+}
+
+.header__bachelor-name, .header__university-name {
+  font-family: 'Prompt';
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.header__university-name {
+  font-weight: 300;
+}
+
+.header__like-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
