@@ -1,5 +1,6 @@
 import React from 'react'
 import { map, get, size } from 'lodash'
+import { number, string, arrayOf, shape } from 'prop-types'
 
 import ScoreIcon from '../icons/Score'
 import MedalIcon from '../icons/Medal'
@@ -63,6 +64,13 @@ const Score = ({ score, title, scores, year }) => {
       </div>
     </div>
   )
+}
+
+Score.propTypes = {
+  score: number,
+  title: string,
+  scores: arrayOf(shape({ type: string, score: number })),
+  year: number
 }
 
 export default Score
