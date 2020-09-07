@@ -1,0 +1,30 @@
+.university-block {
+  max-width: 442px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 12px;
+}
+
+.university-block__header-container {
+  margin-bottom: 20px;
+}
+
+.university-block__available-round-container {
+  margin-top: 14px;
+}
+
+.university-block__score-container {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.university__score-ratio {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.university__social {
+  margin-top: 10px;
+}
