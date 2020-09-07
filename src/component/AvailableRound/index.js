@@ -1,5 +1,6 @@
 import React from 'react'
 import { times, reduce, get } from 'lodash'
+import { number, arrayOf } from 'prop-types'
 
 import './index.css'
 
@@ -33,6 +34,11 @@ const AvailableRound = ({ rounds = 10, availableRounds = [] }) => {
       </div>
     </div>
   )
+}
+
+AvailableRound.propTypes = {
+  rounds: number,
+  availableRounds: arrayOf(number)
 }
 
 export default AvailableRound
