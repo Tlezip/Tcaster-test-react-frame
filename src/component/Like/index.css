@@ -1,3 +1,9 @@
 .like__icon-container {
   cursor: pointer;
 }
+
+@media(max-width: 576px) {
+  .like__icon-container {
+    margin-top: 20px;
+  }
+}

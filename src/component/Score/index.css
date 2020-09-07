@@ -90,3 +90,30 @@
   height: 45px;
   border: 1px solid #d8d8d8;
 }
+
+.score__range-year {
+  margin-left: 3px;
+}
+
+@media (max-width: 576px) {
+  .score__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .score__header-title {
+    margin-bottom: 10px;
+  }
+
+  .score__content {
+    margin-bottom: 10px;
+  }
+
+  .score__content-your-score {
+    font-size: 28px;
+  }
+
+  .score__range-year {
+    display: none;
+  }
+}

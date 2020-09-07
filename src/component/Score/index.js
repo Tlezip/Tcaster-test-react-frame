@@ -47,8 +47,9 @@ const Score = ({ score, title, scores, year }) => {
               <>
                 <div className="score__range-block">
                   <p className="score__range-score">{numberWithCommas(get(scoreRange, 'score', ''))}</p>
-                  <p className="score__range-year">
-                    {`${getScoreTypeText(get(scoreRange, 'type', ''))} ${year}`}
+                  <p>
+                    {`${getScoreTypeText(get(scoreRange, 'type', ''))}`}
+                    <span className="score__range-year">{year}</span>
                   </p>
                 </div>
                 {!isLastScoreRange && (

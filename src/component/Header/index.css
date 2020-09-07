@@ -29,6 +29,11 @@
   text-align: left;
   color: #ff5a5a;
   margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.header__faculty-bachelor-container {
+  margin-bottom: 10px;
 }
 
 .header__bachelor-name, .header__university-name {
@@ -41,6 +46,7 @@
   letter-spacing: normal;
   text-align: left;
   color: #9b9b9b;
+  white-space: nowrap;
 }
 
 .header__university-name {
@@ -51,4 +57,22 @@
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  .header__faculty-logo {
+    width: 80px;
+  }
+
+  .header__faculty-name {
+    font-size: 16px;
+  }
+
+  .header__bachelor-name {
+    font-size: 14px;
+  }
+
+  .header__university-name {
+    font-size: 14px;
+  }
 }

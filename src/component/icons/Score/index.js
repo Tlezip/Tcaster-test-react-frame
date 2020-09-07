@@ -12,9 +12,6 @@ const ScoreIcon = ({ width = 18, height = 18, fill = '', ...rest }) => (
             <use fill="#000" filter="url(#a)" xlinkHref="#b"/>
             <use fill="#FFF" fillOpacity="0" xlinkHref="#b"/>
         </g>
-        <text fill="#FF5A5A" fontFamily="Prompt-SemiBold, Prompt" fontSize="16" fontWeight="500" transform="translate(-375 -8)">
-            <tspan x="0" y="26">รอบที่ 4 : Admission</tspan>
-        </text>
         <g transform="translate(-92 -8)">
             <rect width="119" height="34" x=".5" y=".5" stroke="#FF5A5A" rx="17"/>
             <g transform="translate(92 8)">
