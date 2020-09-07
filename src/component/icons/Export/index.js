@@ -1,5 +1,7 @@
 import React from 'react'
 
+import IconPropTypes from '../../../utils/prop-types/icon'
+
 const ExportIcon = ({ width = 18, height = 23 }) => (
   <svg width={width} height={height} viewBox="0 0 18 23">
     <g fill="none" fillRule="evenodd">
@@ -15,5 +17,7 @@ const ExportIcon = ({ width = 18, height = 23 }) => (
     </g>
   </svg>
 )
+
+ExportIcon.propTypes = IconPropTypes
 
 export default ExportIcon

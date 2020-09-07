@@ -43,12 +43,13 @@ const Score = ({ score, title, scores, year }) => {
         {
           map(scores, (scoreRange, index) => {
             const isLastScoreRange = index === (size(scores) - 1)
+            const scoreRangeType = get(scoreRange, 'type', '')
             return (
               <>
                 <div className="score__range-block">
                   <p className="score__range-score">{numberWithCommas(get(scoreRange, 'score', ''))}</p>
-                  <p>
-                    {`${getScoreTypeText(get(scoreRange, 'type', ''))}`}
+                  <p className="score__range-year">
+                    {`${getScoreTypeText(scoreRangeType)}`}
                     <span className="score__range-year">{year}</span>
                   </p>
                 </div>
