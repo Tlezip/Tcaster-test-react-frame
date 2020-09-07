@@ -1,0 +1,21 @@
+.score-ratio {
+  display: flex;
+  align-items: center;
+}
+
+.score-ratio-icon {
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  
+  border-left: 9px solid #48b6a3;
+  margin-right: 18px;
+}
+
+.score-ratio-text {
+  font-family: 'Prompt';
+  font-size: 16px;
+  font-weight: 300;
+  color: #48b6a3;
+}
